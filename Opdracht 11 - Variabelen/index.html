@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn eerste JS</title>
+</head>
+<body>
+    <script>
+        let prijsProduct = 499;
+        let zomerKorting = 15; //percentages
+        let ledenKorting = 10; //percentages
+        let totaalPrijs = prijsProduct - (prijsProduct * ledenKorting /100) - (prijsProduct * zomerKorting/100);
+
+        alert(totaalPrijs); // 299.25
+
+    </script>
+</body>
+</html>
